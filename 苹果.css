@@ -1,0 +1,446 @@
+*
+{   text-decoration: none;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: "SF Pro SC", "HanHei SC", "SF Pro Text", "Myriad Set Pro", "PingFang SC", "Helvetica Neue", Helvetica, Arial, sans-serif;  
+}
+body,html
+{
+    height: 100%;
+    width: 100%;
+
+}
+.all
+{
+    overflow: visible;
+}
+.top
+{    
+    background: #444;
+    width: 100%;
+    height: 40px;
+}
+.top .top-text
+{
+    margin-right: 30px;
+    width: auto;
+    height: 40px;
+    line-height: 40px;
+    text-align: right;
+    color: #a8a8aa;
+    font-size: 12px;
+   
+}
+.nav
+{   
+     
+    position: sticky;
+    top: 0px;
+    width: 100%;
+    height: 48px;
+    background: rgba(0,0,0,0.8);
+}
+i
+{
+  color: white;
+}
+
+.nav ul
+{ 
+  display: flex;
+  justify-content: space-around;
+  line-height: 48px;
+  list-style: none;
+
+}
+.nav li{
+    color: white;
+    font-size: 14px;
+}
+.one
+{   width: 100%;
+    height: 580px;
+    display: flex;
+    justify-content: center;
+}
+.one-box,.two-box,.three-box
+{ 
+    width: 100%;
+    height: 100%;
+    background:#fafafa;
+}
+.two-box
+{margin-top: 10px;
+ background: #f5f5f5;   
+}
+.three-box
+{
+    margin-top: 10px;
+    background:#131218;
+}
+.one-title,.two-title,.three-title
+{   text-align: center;
+    width: 100%;
+    padding-top: 88px;
+  
+}
+
+.one-title h2,.two-title h2,.three-title h2
+{
+    font-size: 56px;
+    line-height: 1.07143;
+    font-weight: 600;
+    letter-spacing: -.005em;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+.three-title h2
+{
+    color:#ffffff;
+}
+.one-title h3,.two-title h3,.three-title h3
+{
+    font-size: 27px;
+    line-height: 1.14815;
+    font-weight: 400;
+    letter-spacing: .008em;
+}
+.three-title h3
+{
+    color: #ffffff;
+}
+  
+.lianjie
+{ 
+    width: 100%;
+  margin-top: 20px;
+  display: flex;
+  justify-content:space-around;
+  flex-shrink: 1;
+  align-items: center;
+  text-align: center;
+}
+ .more ,.buy{
+
+    text-decoration: none;
+  color: #0070c9;
+  font-size: 17px;
+  font-weight: 400; 
+}
+.three-box .more,.three-box .buy
+{
+    color: #ffffff;
+}
+img
+{
+    width: 70%;
+}
+.main
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+.main-box
+{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+.main-one
+{
+    width: 49%;
+    height: 490px;
+    background: #fafafa;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.main-one .title h4
+{  margin-top: 30px;
+    font-size: 32px;
+    font-weight: 530;
+    text-align: center;
+    display: block;
+}
+.main-one .title h5
+{
+    font-size: 19px;
+    font-weight: 400;
+}
+.main-one  img
+{   margin-left: 20px;
+    padding-top: 20px;
+    width: 100%;
+    height:300px; 
+    
+}
+.main-two
+{   
+     width: 49%;
+     height: 490px;
+    margin-bottom: 10px;
+}
+.main-two img,.main-three img
+{
+    width: 100%;
+    height: 100%;
+}
+
+.main-three
+{   
+    width: 49%;
+    height: 490px;
+   
+    margin-bottom: 10px;
+}
+.main-four
+{    
+    width: 49%;
+    height: 490px;
+    background: #f9f0eb;
+    margin-bottom: 10px;
+}
+.main-four h4
+{  margin-top: 30px;
+   text-align: center;
+   font-size: 32px;
+   font-weight: 600;
+}
+.main-five h4
+{
+    text-align: center;
+    font-size: 32px;
+    font-weight: 600;
+}
+.main-four h5,.main-five h5
+{ text-align: center;
+  font-size: 19px;
+  font-weight: 400;
+}
+.main-four img
+{
+    width: 100%;
+    height: 349px;
+}
+.main-four  .liaogou
+{   width: 100%;
+    text-align: center;
+     text-decoration: none;
+}
+
+.main-four .liaogou a:nth-child(2)
+{
+   margin-left: 10px;
+}
+
+.main-five
+{   
+    width:49%;
+    height: 490px;
+    background: #f6f6f6;
+    margin-bottom: 10px;
+    padding: 30px 0;
+
+}
+.main-five img
+{
+    text-align: center;
+    width: 100%;
+    height: 250px;
+    margin-top: 30px
+}
+.main-six
+{
+    width:49%;
+    height: 490px;
+    background: #000000;
+    margin-bottom: 10px;
+}
+.main-six .title
+{
+    text-align: center;
+}
+.main-six .title h4
+{   margin-top: 40px;
+    color: white;
+    font-size: 32px;
+    font-weight: 500;
+}
+.main-six .title h5
+{
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+}
+.main-six img
+{
+  height: 350px;
+}
+.bottom-box
+{   padding-top: 20px;
+    background: #f6f6f6;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.bottom-box h3
+{
+  font-size: 11px;
+  font-weight: 600;
+  color: #444;
+  margin-bottom: 10.667px;
+}
+.jiazhi
+{
+    margin-left: 80px;
+}
+.bottom-box li
+{
+font-size:10px;
+color: #555;
+font-weight: 500;
+margin-bottom: .8em;
+}
+.last
+{
+    position: relative;
+    left: 20%;
+}
+.last-box-top
+{   width: 100%;
+    text-align: left;
+  
+   font-size: 10px;
+   color: #888;
+   padding-bottom: 4px;
+   
+}
+.zhanghu,.shangdian
+{
+    margin-left: 80px;
+    margin-right: 80px
+}
+.shangwu
+{
+    margin-top: 30px;
+}
+.jiaoyu
+{
+    margin-bottom: 10.667px;
+}
+.shouquan
+{  display: inline;
+    /* width: 100%; */
+    text-align: left;
+    
+   font-size: 10px;
+   color: #888;
+}
+
+ .shouquan li
+{
+    float: left;
+    margin-left: 10px;
+} 
+@media (max-width:400px)
+{  
+   .nav-box .ok
+   {
+       display: none;
+   }
+   .one-box,.two-box,.three-box
+   {
+       height: 500px;
+       text-align: center;
+       
+   }
+   .main
+   {
+       display: flex;
+
+       flex-direction: column;
+   }
+   .main-one,.main-two,.main-three,.main-four,.main-five,.main-six
+   {
+       width: 100%;
+       height: 500px;
+   }
+   .bottom-box
+   {
+       display: flex;
+       flex-direction: column;
+   }
+   /* img,h4,h5,h3,h2
+   {
+       margin-right: 10px;
+   } */
+   
+   
+   
+   .bottom-box h3,.bottom-box ul
+   {
+       width: 100%;
+       text-align: left;   
+   }
+   .shangdian,.zhanghu,.jiaoyu,.shangwu
+   {
+       margin:0px;
+   }
+   .bottom-box ul
+   {
+       display: none;
+   }
+   .bottom-box h3
+   {   font-size: 14px;
+       background: #f2f2f2;
+       color: #333333;
+       border-bottom: 1px solid #dedede;
+   }
+   .jiazhi
+   {
+       margin-left: 0;
+   }
+   .xuangou:hover .ul1
+   {
+        display: block;
+   }
+   /* .xuangou:visited .ul1
+   {
+       display: none;
+   } */
+   .shangdian:hover .ul2
+   {
+    display: block;
+   }
+   .jiaoyu:hover .ul3
+   {
+    display: block;
+   }
+   .shangwu:hover .ul4
+   {
+    display: block;
+   }
+   .zhanghu:hover .ul5
+   {
+    display: block;
+   }
+   .jiazhi:hover .ul6
+   {
+    display: block;
+   }
+   .guanyuapp:hover .ul7
+   {
+    display: block;
+   }
+   .last
+   {
+       left:0;
+   }
+}
